@@ -13,7 +13,8 @@ while (i < 101) {
     } else {
       console.log("buzz");
     }
+  } else {
+    console.log(i);
   }
-
   i++;
 }
