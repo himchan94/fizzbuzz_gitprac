@@ -7,6 +7,12 @@ while (i < 101) {
     } else {
       console.log("fizz");
     }
+  } else if (i % 5 === 0) {
+    if (i % 15 === 0) {
+      console.log("fizzbuzz");
+    } else {
+      console.log("buzz");
+    }
   }
 
   i++;
